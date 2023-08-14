@@ -1,0 +1,119 @@
+@use 'reset';
+@use 'vars';
+
+@font-face {
+  font-family: "Fraiche";
+  src:
+    local("Fraiche"),
+    url("../assets/fonts/fraiche.otf")
+    format("truetype");
+}
+
+body {
+  background-color: vars.$main-color;
+  color: vars.$stroke-color;
+  font-family: 'Andika', sans-serif;
+  line-height: 1.7rem;
+  background: url("../assets/palette.jpeg") no-repeat center/ cover;
+  min-height: 100vh;
+}
+
+
+h1,
+h2,
+p,
+button,
+a {
+  color: white;
+  list-style-type: hel;
+}
+
+#root {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+main {
+  flex: 1;
+  margin: 1rem 2rem;
+  
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3rem;
+  font-family: 'Fraiche', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p,
+h3 {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 1rem 0;
+}
+
+img {
+  border-radius: 10px;
+
+}
+
+input,
+select,
+textarea {
+  font-size: 1.2rem;
+  font-family: 'Andika', sans-serif;
+  background-color: transparentize(vars.$primary-color, 0.5);
+  border-radius: 10px;
+  padding: 0.5rem;
+
+  &:focus-visible {
+    outline: vars.$stroke-color auto 1px;
+    background-color:vars.$secondary-color;
+  }
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+  border: none;
+}
+
+button:focus-visible {
+  outline: vars.$stroke-color auto 1px;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+  & div {
+    display: flex;
+    flex-flow: column;
+
+    & input,
+    & select,
+    & textarea {
+      margin: 0.5rem 0; 
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@use 'src/styles/vars';
+
+body { margin: 0; }
+
+.navbar {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: vars.$primary-color;
+  position: sticky;
+
+
+  &-container {
+    height: 100%;
+    gap: 10px;
+  }
+
+  &-left {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  &-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  &-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+  }
+
+  &-button {
+    border-radius: 20%;
+    border-style: none;
+    background-color: #4A919E;
+    border-color: white;
+  }
+  
+  h2 {
+    color: white;
+  }
+}
