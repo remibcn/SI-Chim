@@ -1,16 +1,13 @@
+import './styles.scss';
+
 function Products() {
   return (
-    <aside className="modal-container">
-      <div>
-        <p>caca</p>
+    <div className="modal-container">
+      <div className="modal-content">
+        <p> test </p>
+        <p> test </p>
       </div>
-      <div>
-        <button type="button">yes </button>
-      </div>
-      <div>
-        <button type="button">no </button>
-      </div>
-    </aside>
+    </div>
   );
 }
 
