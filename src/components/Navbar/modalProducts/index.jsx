@@ -1,10 +1,16 @@
-import React from 'react';
-
 function Products() {
   return (
-    <div className="modal-container">
-      <p>caca</p>
-    </div>
+    <aside className="modal-container">
+      <div>
+        <p>caca</p>
+      </div>
+      <div>
+        <button type="button">yes </button>
+      </div>
+      <div>
+        <button type="button">no </button>
+      </div>
+    </aside>
   );
 }
 

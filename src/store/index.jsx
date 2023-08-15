@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 import dummyReducer from '../slices/dummySlice';
-import navbarReducer from '../slices/modalSlice';
+import modalReducer from '../slices/modalSlice';
 
 const store = configureStore({
   reducer: {
     dummy: dummyReducer,
-    navbar: navbarReducer,
+    modal: modalReducer,
   },
 });
 
