@@ -1,14 +1,23 @@
 @use 'src/styles/vars';
 
 .modal-container {
-    position: fixed;
+    position: absolute;
     align-items: center;
+    top: 100%;
+    width: 100%;
     
 }
 
 .modal-content {
-    width: 100vw;
-    background-color: green;
-    justify-content: space-evenly;
-    align-items: center;    
+    background: vars.$primary-color;
+    justify-content: center;
+    gap: 6rem;
+    padding: 1rem;
+    > * {
+        margin: 0;
+    }
+    
+    display: flex;
+
+        
 }

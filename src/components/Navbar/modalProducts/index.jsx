@@ -4,8 +4,9 @@ function Products() {
   return (
     <div className="modal-container">
       <div className="modal-content">
-        <p> test </p>
-        <p> test </p>
+        <p> cuisine </p>
+        <p> sols </p>
+        <p> toiture </p>
       </div>
     </div>
   );

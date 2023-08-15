@@ -13,7 +13,6 @@ function Navbar() {
       </div>
       <div className="navbar-container navbar-middle">
         <button className="navbar-button" type="button" onClick={() => dispatch(openModal())}>
-          {isOpen && <Products />}
           <h2 className="navbar-h2">Nos Produits</h2>
         </button>
         <button className="navbar-button" type="button">
@@ -23,6 +22,7 @@ function Navbar() {
       <div className="navbar-container navbar-right">
         <h2>Contact</h2>
       </div>
+      {isOpen && <Products />}
     </header>
   );
 }
