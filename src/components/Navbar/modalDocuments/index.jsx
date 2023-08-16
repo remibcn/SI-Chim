@@ -1,12 +1,12 @@
 import './styles.scss';
 import { NavLink } from 'react-router-dom';
 
-function Products() {
+function Documents() {
   return (
     <div className="modal-container">
       <div className="modal-content">
-        <NavLink to="/Nos-Produits/Cuisine">
-          <p> Cuisine </p>
+        <NavLink to="/Cuisine">
+          <p> Fiches techniques </p>
         </NavLink>
         <NavLink to="/Sols">
           <p> Sols </p>
@@ -16,4 +16,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default Documents;

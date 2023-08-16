@@ -1,0 +1,53 @@
+@use 'src/styles/vars';
+
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.text {
+
+    &-button {
+        display: flex;
+        justify-content: space-around;
+        gap: 6rem;
+        margin-top: 8rem;
+        font-size: 2rem;
+
+        &-products {
+            padding: 1rem 1rem 1rem 1rem;
+            border-radius: 10%;
+            border: 2px solid #4A919E;
+        }
+    
+        
+        &-documents {
+            border: solid 2px vars.$primary-color;
+            padding: 1rem 1rem 1rem 1rem;
+            border-radius: 10%;
+        }
+    }
+}
+
+.text-h2-1 {
+    margin-left: 3.5rem;
+    font-style: oblique;
+}
+
+
+.text-button-products:hover {
+    background-color: #4A919E;
+    color: white;
+}
+
+.text-button-documents:hover {
+    background-color: vars.$primary-color;
+    color: white;
+}
+
+
+

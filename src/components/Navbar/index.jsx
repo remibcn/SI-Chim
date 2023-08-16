@@ -1,10 +1,13 @@
 import './styles.scss';
 import { useDispatch, useSelector } from 'react-redux';
-import { openModal } from '../../slices/modalSlice';
+import { documentModal, productsModal } from '../../slices/modalSlice';
 import Products from './modalProducts';
+import Documents from './modalDocuments';
 
 function Navbar() {
-  const { isOpen } = useSelector((store) => store.modal);
+  const { isOpenProducts } = useSelector((store) => store.modal);
+  const { isOpenDocuments } = useSelector((store) => store.modal);
+
   const dispatch = useDispatch();
   return (
     <header className="navbar">
@@ -12,17 +15,18 @@ function Navbar() {
         <h2> Si-Chim </h2>
       </div>
       <div className="navbar-container navbar-middle">
-        <button className="navbar-button" type="button" onClick={() => dispatch(openModal())}>
+        <button className="navbar-button" type="button" onClick={() => dispatch(productsModal())}>
           <h2 className="navbar-h2">Nos Produits</h2>
         </button>
-        <button className="navbar-button" type="button">
+        <button className="navbar-button" type="button" onClick={() => dispatch(documentModal())}>
           <h2 className="navbar-h2">Nos Documents</h2>
         </button>
       </div>
       <div className="navbar-container navbar-right">
         <h2>Contact</h2>
       </div>
-      {isOpen && <Products />}
+      {isOpenProducts && <Products />}
+      {isOpenDocuments && <Documents />}
     </header>
   );
 }

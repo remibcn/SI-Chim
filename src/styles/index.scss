@@ -11,7 +11,6 @@
 
 body {
   background-color: vars.$main-color;
-  color: vars.$stroke-color;
   font-family: 'Andika', sans-serif;
   line-height: 1.7rem;
   background: url("../assets/palette.jpeg") no-repeat center/ cover;
@@ -21,6 +20,7 @@ body {
 
 h1,
 h2,
+h3,
 p,
 button,
 a {
