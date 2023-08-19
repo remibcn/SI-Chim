@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { documentModal, productsModal } from '../../slices/modalSlice';
 import Products from './modalProducts';
 import Documents from './modalDocuments';
+import logo from '../../assets/logo.png';
 
 function Navbar() {
   const { isOpenProducts } = useSelector((store) => store.modal);
@@ -12,7 +13,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-container navbar-left">
-        <h2> Si-Chim </h2>
+        <img src={logo} alt="logo" className="navbar-logo" />
       </div>
       <div className="navbar-container navbar-middle">
         <button className="navbar-button" type="button" onClick={() => dispatch(productsModal())}>

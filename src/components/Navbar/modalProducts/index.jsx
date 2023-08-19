@@ -11,6 +11,24 @@ function Products() {
         <NavLink to="/Sols">
           <p> Sols </p>
         </NavLink>
+        <NavLink to="/Sols">
+          <p> Sanitaire </p>
+        </NavLink>
+        <NavLink to="/Sols">
+          <p> Vitres & surfaces </p>
+        </NavLink>
+        <NavLink to="/Sols">
+          <p> Entretien spécifique </p>
+        </NavLink>
+        <NavLink to="/Sols">
+          <p> Entretien auto </p>
+        </NavLink>
+        <NavLink to="/Sols">
+          <p> Anti graffiti </p>
+        </NavLink>
+        <NavLink to="/Sols">
+          <p> Entretien général </p>
+        </NavLink>
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
+import ProductsList from './SolsProductsList';
+
 function Sols() {
   return (
-    <div> test</div>
+    <ProductsList />
   );
 }
 
