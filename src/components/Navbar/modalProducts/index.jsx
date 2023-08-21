@@ -8,7 +8,7 @@ function Products() {
         <NavLink to="/Nos-Produits/Cuisine">
           <p> Cuisine </p>
         </NavLink>
-        <NavLink to="/Sols">
+        <NavLink to="/Produits/Sols">
           <p> Sols </p>
         </NavLink>
         <NavLink to="/Sols">
