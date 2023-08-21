@@ -6,9 +6,9 @@ body { margin: 0; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: green;
+  background: vars.$primary-color;
   position: sticky;
- 
+  height: 15vh;
 
   &-container {
     height: 20%;
