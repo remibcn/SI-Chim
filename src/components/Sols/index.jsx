@@ -1,5 +1,6 @@
-import image1 from '../../assets/palette.jpeg';
-import image2 from '../../assets/palette.jpeg';
+import image1 from '../../assets/SI FOUR 2+.png';
+import image2 from '../../assets/SI PLONGE.png';
+import image3 from '../../assets/SI FOUR 2+.png';
 import './styles.scss';
 
 function Sols() {
@@ -26,7 +27,24 @@ function Sols() {
   return (
     <div className="container">
       <div className="column">
-        <img src={image1} alt="test" />
+        <a href='/'>
+          <img src={image1} alt="test" className="column-image" />
+          <a href="/" >
+            <p> fiches technique </p>
+          </a>
+        </a>
+      </div>
+      <div className="column">
+        <img src={image2} alt="test" className="column-image" />
+        <a href="/" >
+          <p> fiches technique </p>
+        </a>  
+      </div>
+      <div className="column">
+        <img src={image3} alt="test" className="column-image" />
+        <a href="/">
+          <p> fiches technique </p>
+        </a> 
       </div>
     </div>
   );

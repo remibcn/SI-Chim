@@ -13,7 +13,7 @@ function Text() {
         <h2> de produits d'hygienes, d'entretien et de maintenance pour les professionels et les collectivités</h2>
       </div>
       <div className="text-container-p">
-        <p> Fondée depu is plus de 20 ans par 2 chimistees passionées, Si-Chim se veut innovante aussi bien dans ses formulations que dans le respect des normes et de l'environnement</p>
+        <p> Fondée depuis plus de 20 ans par 2 chimistees passionées, Si-Chim se veut innovante aussi bien dans ses formulations que dans le respect des normes et de l'environnement</p>
       </div>
       <div>
         <FR title="United States" className="flag" />

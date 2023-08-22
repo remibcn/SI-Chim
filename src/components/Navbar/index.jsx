@@ -13,7 +13,9 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-container navbar-left">
-        <img src={logo} alt="logo" className="navbar-logo" />
+        <a href="/">
+          <img src={logo} alt="logo" className="navbar-logo" />
+        </a>
       </div>
       <div className="navbar-container navbar-middle">
         <button className="navbar-button" type="button" onClick={() => dispatch(productsModal())}>
