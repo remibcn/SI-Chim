@@ -1,6 +1,6 @@
 import './styles.scss';
 import { useDispatch, useSelector } from 'react-redux';
-import { documentModal, productsModal } from '../../slices/modalSlice';
+import { productsModal } from '../../slices/modalSlice';
 import Products from './modalProducts';
 import Documents from './modalDocuments';
 import logo from '../../assets/logo.png';
@@ -20,9 +20,6 @@ function Navbar() {
       <div className="navbar-container navbar-middle">
         <button className="navbar-button" type="button" onClick={() => dispatch(productsModal())}>
           <h2 className="navbar-h2">Nos Produits</h2>
-        </button>
-        <button className="navbar-button" type="button" onClick={() => dispatch(documentModal())}>
-          <h2 className="navbar-h2">Nos Documents</h2>
         </button>
       </div>
       <div className="navbar-container navbar-right">

@@ -4,6 +4,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import SolsProducts from './pages/SolsProducts';
 import Cuisine from './components/Cuisine';
+import SiFour from './components/Sols/SiFour';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/Produits/Cuisine',
         element: <Cuisine />,
+      },
+      {
+        path: '/Produits/Sols/SiFour',
+        element: <SiFour />,
       },
     ],
   },

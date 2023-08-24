@@ -1,6 +1,7 @@
 import image1 from '../../assets/SI FOUR 2+.png';
 import image2 from '../../assets/SI PLONGE.png';
 import image3 from '../../assets/SI FOUR 2+.png';
+import PDF from '../../assets/FT SI FOUR 2+.pdf';
 import './styles.scss';
 
 function Sols() {
@@ -27,10 +28,10 @@ function Sols() {
   return (
     <div className="container">
       <div className="column">
-        <a href='/'>
+        <a href='/Produits/Sols/SiFour'>
           <img src={image1} alt="test" className="column-image" />
-          <a href="/" >
-            <p> fiches technique </p>
+          <a href={PDF}>
+            <p className="test-p"> fiches technique </p>
           </a>
         </a>
       </div>
