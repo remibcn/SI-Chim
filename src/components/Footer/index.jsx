@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-description_container">
         <h2 className="footer-title">SiChim</h2>
         <p className="footer-description">
-          Site de la société SiChim avec
+          Site de la société SiChim, entreprise située à Villeneuve-St-Georges.
         </p>
       </div>
       <div className="footer-links_container">

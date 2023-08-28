@@ -5,7 +5,7 @@ function Products() {
   return (
     <div className="modal-container">
       <div className="modal-content">
-        <NavLink to="/Nos-Produits/Cuisine">
+        <NavLink to="/Produits/Cuisine">
           <p> Cuisine </p>
         </NavLink>
         <NavLink to="/Produits/Sols">

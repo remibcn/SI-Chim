@@ -1,11 +1,15 @@
-import Cuisine from '../components/Sols';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Cuisine from '../components/Cuisine';
 
-function SolsProducts() {
+function CuisineProducts() {
   return (
     <div>
+      <Navbar />
       <Cuisine />
+      <Footer />
     </div>
   );
 }
 
-export default SolsProducts;
+export default CuisineProducts;

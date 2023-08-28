@@ -1,3 +1,5 @@
+@use 'src/styles/vars';
+
 .container {
     display: flex;
     text-align: center;
@@ -7,10 +9,13 @@
 .column {
     flex: 1;
     padding: 3rem;
-
 }
 
 .icons {
     font-size: 5rem;
+    color: black;
+}
 
+.products-h2 {
+    color: black;
 }
