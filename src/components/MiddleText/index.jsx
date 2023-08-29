@@ -6,7 +6,7 @@ import { FR } from 'country-flag-icons/react/3x2'
 function Text() {
   return (
     <div className="text-container">
-      <div className="text-container-h2">
+      <div className="h2-h2">
         <h2> SiChim est une société francaise de fabrication spécialiste dans la recherche et le developpement d'une game complete </h2>
       </div>
       <div className="text-container-text">

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { productsModal } from '../../slices/modalSlice';
 import Products from './modalProducts';
 import Documents from './modalDocuments';
-import logo from '../../assets/newlogosichim2.png';
+import logo from '../../assets/newlogosichim2 blanc.png';
 
 function Navbar() {
   const { isOpenProducts } = useSelector((store) => store.modal);
