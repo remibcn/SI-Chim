@@ -1,26 +1,29 @@
-.container {
+.container-sols {
     display: flex;
-    text-align: center;
-    margin-bottom: 2rem;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
 }
 
-.column {
+.column-sols{
     flex: 1;
-    padding: 3rem;
-    justify-content: space-between;
-    width: 1Orem;
-    margin-top: 2rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
 
-    &-image {
-        width: 20rem;
-    }
 }
 
 .test-p {
     color: black;
+    font-style: oblique;
 }
 
 .test-p:hover {
     transform: scale(1.5)
+}
+
+.column-image {
+    width: 20rem;
 }

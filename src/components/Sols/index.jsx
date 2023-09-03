@@ -1,51 +1,27 @@
-import image1 from '../../assets/SI FOUR 2+.png';
-import image2 from '../../assets/SI PLONGE.png';
-import image3 from '../../assets/SI FOUR 2+.png';
-import PDF from '../../assets/FT SI FOUR 2+.pdf';
+import image1 from '../../assets/sols/ODOR-COTON.png';
+import image2 from '../../assets/sols/ODOR-LAVANDE.png';
+import image3 from '../../assets/sols/ODOR-PECHE.png';
+import image4 from '../../assets/sols/SUPER-DECRASS-SOLS.png';
+import image5 from '../../assets/SI FOUR 2+.png';
+import image6 from '../../assets/SI PLONGE.png';
 import './styles.scss';
 
 function Sols() {
-  const ImagesSols = [
-    {
-      id: 1,
-      src: image1,
-      alt: 'Image1',
-
-    },
-    {
-      id: 2,
-      src: image2,
-      alt: 'Image2',
-    },
-  ];
-
-  // let listOfProducts;
-  // if (ImagesSols) {
-  //   listOfProducts = ImagesSols.map((image) => (
-  //     <SolsProductsList key={image.id} image={image} />
-  //   ));
-  // }
   return (
-    <div className="container">
-      <div className="column">
-        <a href='/Produits/Sols/SiFour'>
-          <img src={image1} alt="test" className="column-image" />
-          <a href={PDF}>
-            <p className="test-p"> fiches technique </p>
-          </a>
-        </a>
+    <div className="container-sols">
+      <div className="colonne-sols">
+        <p> le nom </p>
+        <img src={image1} alt="test" className="column-image" />
+        <p> le nom </p>
+        <img src={image4} alt="test" className="column-image" />
       </div>
-      <div className="column">
-        <img src={image2} alt="test" className="column-image" />
-        <a href="/" >
-          <p> fiches technique </p>
-        </a>  
+      <div className="colonne-sols">
+        <img src={image1} alt="test" className="column-image" />
+        <img src={image4} alt="test" className="column-image" />
       </div>
-      <div className="column">
-        <img src={image3} alt="test" className="column-image" />
-        <a href="/">
-          <p> fiches technique </p>
-        </a> 
+      <div className="colonne-sols">
+        <img src={image1} alt="test" className="column-image" />
+        <img src={image4} alt="test" className="column-image" />
       </div>
     </div>
   );

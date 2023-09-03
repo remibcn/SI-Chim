@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import './styles.scss';
 import { NavLink } from 'react-router-dom';
-import { FR } from 'country-flag-icons/react/3x2'
+import { FR } from 'country-flag-icons/react/3x2';
 
 function Text() {
   return (
@@ -21,9 +21,6 @@ function Text() {
       <div className="text-button">
         <a href="#test">
           <button className="text-button-products" type="button"> Nos Produits </button>
-        </a>
-        <a href="#test">
-          <button className="text-button-documents" type="button"> Nos Documents </button>
         </a>
       </div>
     </div>
