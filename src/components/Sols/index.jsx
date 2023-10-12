@@ -10,17 +10,21 @@ function Sols() {
   return (
     <div className="container-sols">
       <div className="colonne-sols">
+        <img src={image1} alt="test" className="column-image" />
+        <p className="sols-test"> Si Four </p>
+        <img src={image4} alt="test" className="column-image" />
+        <p> le nom </p>
+      </div>
+      <div className="colonne-sols">
         <p> le nom </p>
         <img src={image1} alt="test" className="column-image" />
         <p> le nom </p>
         <img src={image4} alt="test" className="column-image" />
       </div>
       <div className="colonne-sols">
+        <p> le nom </p>
         <img src={image1} alt="test" className="column-image" />
-        <img src={image4} alt="test" className="column-image" />
-      </div>
-      <div className="colonne-sols">
-        <img src={image1} alt="test" className="column-image" />
+        <p> le nom </p>
         <img src={image4} alt="test" className="column-image" />
       </div>
     </div>
