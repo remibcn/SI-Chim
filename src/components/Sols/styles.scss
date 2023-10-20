@@ -1,19 +1,22 @@
 .container-sols {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
+    margin-top: 5rem;
 }
 
-.column-sols{
+.colonne-sols{
     flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     text-align: center;
-
 }
+.colonne-sols2{
+    flex: 1;
+    text-align: center;
+}
+
+.colonne-sols3{
+ flex: 1;
+ text-align: center;
+}
+
 
 .test-p {
     color: black;
@@ -21,15 +24,21 @@
     
 }
 
-.test-p:hover {
-    transform: scale(1.5)
-}
 
 .column-image {
-    width: 16rem;
+    width: 12rem;
+
 }
 
 .sols-test {
     font-size: 1.6rem;
     
 }
+
+.sols-p {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
