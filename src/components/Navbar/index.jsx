@@ -23,7 +23,9 @@ function Navbar() {
         </button>
       </div>
       <div className="navbar-container navbar-right">
-        <h2>Contact</h2>
+        <a href="/Contact">
+          <h2>Contact</h2>
+        </a>
       </div>
       {isOpenProducts && <Products />}
       {isOpenDocuments && <Documents />}

@@ -1,0 +1,54 @@
+.p-contact {
+    font-size: 4rem;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.contact-input {
+    display: block;
+    width: 90rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.p-center {
+    text-align: center;
+    
+}
+
+.form-center {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.contact-input-telephone {
+    height: 10rem;
+    width: 90rem;
+    margin-left: 2rem;
+}
+.contact-input-telephone::before {
+    content: "Votre message : ";
+    font-weight: bold;
+    color: #333;
+    padding-right: 10px;
+}
+
+.contact-name {
+    font-size: 1.5rem;
+}
+
+.button-contact {
+  background-color: #4A919E;
+  color: white;
+  width: 10rem;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  justify-content: center;
+  margin-left: 45%;
+  margin-bottom: 5rem;
+}

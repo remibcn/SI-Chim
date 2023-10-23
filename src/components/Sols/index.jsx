@@ -17,17 +17,25 @@ function Sols() {
             <img src={image1} alt="test" className="column-image" />
           </a>
           <p className="sols-test"> Super Decrass Sols </p>
-          <img src={image2} alt="test" className="column-image" />
+          <a href=" /Produits/Sols/DECAP">
+            <img src={image2} alt="test" className="column-image" />
+          </a>
           <p className="sols-test"> Decap </p>
         </div>
         <div className="colonne-sols2">
-          <img src={image3} alt="test" className="column-image" />
+          <a href=" /Produits/Sols/MOQ">
+            <img src={image3} alt="test" className="column-image" />
+          </a>
           <p className="sols-test"> Si Moq </p>
-          <img src={image4} alt="test" className="column-image" />
+          <a href="/Produits/Sols/PARK">
+            <img src={image4} alt="test" className="column-image" />
+          </a>
           <p className="sols-test"> Si Park </p>
         </div>
         <div className="colonne-sols3">
-          <img src={image5} alt="test" className="column-image" />
+          <a href=" /Produits/Sols/CLEAN">
+            <img src={image5} alt="test" className="column-image" />
+          </a>
           <p className="sols-test"> Si Clean </p>
           <img src={image6} alt="test" className="column-image" />
           <p className="sols-test"> Si Odor </p>
