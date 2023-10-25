@@ -17,6 +17,15 @@ import Contact from './components/Contact';
 import CREMEMAINS from './components/Sanitaire/CremeMains';
 import GelWC from './components/Sanitaire/GelWC';
 import SaniClean from './components/Sanitaire/SaniClean';
+import Calc from './components/Sanitaire/Calc';
+import Deo from './components/Sanitaire/Deo';
+import Odor2D from './components/Sols/Odor2D';
+import Odor from './components/Sols/Odor';
+import SiSol from './components/Sols/SiSol';
+import VitreEco from './components/VitresSurfaces/VitreEco';
+import SiRince from './components/Cuisine/SiRince';
+import LaveEauDur from './components/Cuisine/LaveEauDure';
+import LaveEauDure from './components/Cuisine/LaveEauDure';
 
 const router = createBrowserRouter([
   {
@@ -76,6 +85,38 @@ const router = createBrowserRouter([
       {
         path: '/Produits/Sols/CLEAN',
         element: <CLEAN />,
+      },
+      {
+        path: '/Produits/Sanitaire/CALC',
+        element: <Calc />,
+      },
+      {
+        path: '/Produits/Sanitaire/Deo',
+        element: <Deo />,
+      },
+      {
+        path: '/Produits/Sols/Odor2D',
+        element: <Odor2D />,
+      },
+      {
+        path: '/Produits/Sols/Odor',
+        element: <Odor />,
+      },
+      {
+        path: '/Produits/Sols/SiSol',
+        element: <SiSol />,
+      },
+      {
+        path: '/Produits/VitresSurfaces/VitreEco',
+        element: <VitreEco />,
+      },
+      {
+        path: '/Produits/Cuisine/SiRince',
+        element: <SiRince />,
+      },
+      {
+        path: '/Produits/Cuisine/LaveEauDure',
+        element: <LaveEauDure />,
       },
       {
         path: '/Produits/EntretienSpecifique',
