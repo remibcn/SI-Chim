@@ -8,12 +8,12 @@ function LaveEauDure() {
   return (
     <div>
       <Navbar />
-      <div className="calc">
-        <div className="calc-left">
-          <img className="calc-image" src={SaniCleanImage} alt="test" />
+      <div className="laveeau">
+        <div className="laveeau-left">
+          <img className="laveeau-image" src={SaniCleanImage} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="calc-right">
+        <div className="laveeau-right">
           <p>
             SI LAV EAU DURE est un nettoyant dégraissant pour le lavage de la vaisselle en
             machine industrielle.

@@ -26,9 +26,6 @@ function Products() {
         <NavLink to="/Produits/AntiGraff">
           <p> Anti graffiti </p>
         </NavLink>
-        <NavLink to="/Produits/EntretienGeneral">
-          <p> Entretien général </p>
-        </NavLink>
       </div>
     </div>
   );

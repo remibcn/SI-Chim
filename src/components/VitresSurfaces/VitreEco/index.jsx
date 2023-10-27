@@ -23,7 +23,7 @@ function VitreEco() {
             de trace.
           </p>
           <p>
-            SI VITRES ECO laisse une odeur agréable de fraicheur.
+            SI VITRES + laisse une odeur agréable de fraicheur.
           </p>
         </div>
       </div>

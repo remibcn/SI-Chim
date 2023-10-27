@@ -24,8 +24,13 @@ import Odor from './components/Sols/Odor';
 import SiSol from './components/Sols/SiSol';
 import VitreEco from './components/VitresSurfaces/VitreEco';
 import SiRince from './components/Cuisine/SiRince';
-import LaveEauDur from './components/Cuisine/LaveEauDure';
 import LaveEauDure from './components/Cuisine/LaveEauDure';
+import Plonge from './components/Cuisine/Plonge';
+import Detart from './components/Cuisine/Detart';
+import Four from './components/Cuisine/Four2+';
+import SpeedFlash from './components/Cuisine/SpeedFlash';
+import Net from './components/Cuisine/Net';
+import VitrePlus from './components/VitresSurfaces/VitrePlus';
 
 const router = createBrowserRouter([
   {
@@ -117,6 +122,30 @@ const router = createBrowserRouter([
       {
         path: '/Produits/Cuisine/LaveEauDure',
         element: <LaveEauDure />,
+      },
+      {
+        path: '/Produits/Cuisine/Plonge',
+        element: <Plonge />,
+      },
+      {
+        path: '/Produits/Cuisine/SpeedFlash',
+        element: <SpeedFlash />,
+      },
+      {
+        path: '/Produits/VitresSurfaces/VitrePlus',
+        element: <VitrePlus />,
+      },
+      {
+        path: '/Produits/Cuisine/Net',
+        element: <Net />,
+      },
+      {
+        path: '/Produits/Cuisine/Detart',
+        element: <Detart />,
+      },
+      {
+        path: '/Produits/Cuisine/Four2+',
+        element: <Four />,
       },
       {
         path: '/Produits/EntretienSpecifique',

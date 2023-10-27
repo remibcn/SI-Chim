@@ -8,12 +8,12 @@ function SiRince() {
   return (
     <div>
       <Navbar />
-      <div className="calc">
-        <div className="calc-left">
-          <img className="calc-image" src={SaniCleanImage} alt="test" />
+      <div className="rince">
+        <div className="rince-left">
+          <img className="rince-image" src={SaniCleanImage} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="calc-right">
+        <div className="rince-right">
           <p>
             SI RINCE est un liquide de rinçage automatique de la vaisselle en machine
             professionnelle.
