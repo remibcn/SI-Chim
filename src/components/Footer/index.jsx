@@ -21,9 +21,6 @@ function Footer() {
           <li>
             <p> <BsFillTelephoneFill className="icons1" /> 01 43 82 65 11  </p>
           </li>
-          <li>
-            <Link className="button-minimalist" to="/contact">Contactez nous</Link>
-          </li>
         </ul>
       </div>
     </footer>

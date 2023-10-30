@@ -23,7 +23,7 @@ function Navbar() {
         </button>
       </div>
       <div className="navbar-container navbar-right">
-        <a href="/Contact">
+        <a href="/contact">
           <h2>Contact</h2>
         </a>
       </div>
