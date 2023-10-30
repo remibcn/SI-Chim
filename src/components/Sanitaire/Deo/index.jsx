@@ -8,12 +8,12 @@ function Deo() {
   return (
     <div>
       <Navbar />
-      <div className="decrass">
-        <div className="decrass-left">
-          <img className="decrass-image" src={SaniCleanImage} alt="test" />
+      <div className="deo">
+        <div className="deo-left">
+          <img className="deo-image" src={SaniCleanImage} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="decrass-right">
+        <div className="deo-right">
           <p>
             SI DEO est un désodorisant d’atmosphère qui permet de désodoriser les locaux
             durant plusieurs heures : bureaux, halls d’entrées, couloirs, salles de réunions,

@@ -31,6 +31,20 @@ import Four from './components/Cuisine/Four2+';
 import SpeedFlash from './components/Cuisine/SpeedFlash';
 import Net from './components/Cuisine/Net';
 import VitrePlus from './components/VitresSurfaces/VitrePlus';
+import Menage from './components/VitresSurfaces/Menage';
+import AntiMousse from './components/EntretienSpecifique/AntiMousse';
+import DecapSim from './components/EntretienSpecifique/DecapSim';
+import Algues from './components/EntretienSpecifique/Algues';
+import Force from './components/EntretienSpecifique/Force';
+import OdorPin from './components/EntretienSpecifique/OdorPin';
+import Repulsif from './components/EntretienSpecifique/Repulsif';
+import Jantes from './components/EntretienAuto/Jantes';
+import Wash from './components/EntretienAuto/Wash';
+import Turbonet from './components/EntretienAuto/Turbonet';
+import LaveGlaces from './components/EntretienAuto/LaveGlaces';
+import AntiGraffitiPage from './pages/AntiGraffitiPage';
+import NPGRAFF from './components/AntiGraffiti/NP';
+import NDGRAFF from './components/AntiGraffiti/ND';
 
 const router = createBrowserRouter([
   {
@@ -52,6 +66,10 @@ const router = createBrowserRouter([
         element: <SanitaireProduct />,
       },
       {
+        path: '/Produits/Antigraffiti',
+        element: <AntiGraffitiPage />,
+      },
+      {
         path: '/Produits/Cuisine',
         element: <CuisineProducts />,
       },
@@ -66,6 +84,14 @@ const router = createBrowserRouter([
       {
         path: '/Produits/Sanitaire/CREMEMAINS',
         element: <CREMEMAINS />,
+      },
+      {
+        path: '/Produits/AntiGraffiti/NPGRAFF',
+        element: <NPGRAFF />,
+      },
+      {
+        path: '/Produits/AntiGraffiti/NDGRAFF',
+        element: <NDGRAFF />,
       },
       {
         path: '/Produits/Sanitaire/SaniClean',
@@ -132,8 +158,52 @@ const router = createBrowserRouter([
         element: <SpeedFlash />,
       },
       {
+        path: '/Produits/EntretienSpecifique/AntiMousse',
+        element: <AntiMousse />,
+      },
+      {
+        path: '/Produits/EntretienAuto/Wash',
+        element: <Wash />,
+      },
+      {
+        path: '/Produits/EntretienAuto/Jantes',
+        element: <Jantes />,
+      },
+      {
+        path: '/Produits/EntretienAuto/LaveGlaces',
+        element: <LaveGlaces />,
+      },
+      {
+        path: '/Produits/EntretienAuto/Turbonet',
+        element: <Turbonet />,
+      },
+      {
+        path: '/Produits/EntretienSpecifique/DecapSim',
+        element: <DecapSim />,
+      },
+      {
+        path: '/Produits/EntretienSpecifique/Algues',
+        element: <Algues />,
+      },
+      {
+        path: '/Produits/EntretienSpecifique/Force',
+        element: <Force />,
+      },
+      {
+        path: '/Produits/EntretienSpecifique/OdorPin',
+        element: <OdorPin />,
+      },
+      {
+        path: '/Produits/EntretienSpecifique/Repulsif',
+        element: <Repulsif />,
+      },
+      {
         path: '/Produits/VitresSurfaces/VitrePlus',
         element: <VitrePlus />,
+      },
+      {
+        path: '/Produits/VitresSurfaces/Menage',
+        element: <Menage />,
       },
       {
         path: '/Produits/Cuisine/Net',

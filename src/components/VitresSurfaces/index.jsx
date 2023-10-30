@@ -1,5 +1,6 @@
 import image1 from '../../assets/VitresSurfaces/VITRES_ECO-removebg-preview.png';
 import image2 from '../../assets/VitresSurfaces/VITRES_+-removebg-preview.png';
+import image3 from '../../assets/VitresSurfaces/5_-_SI_MENAGE-removebg-preview.png';
 
 import './styles.scss';
 
@@ -21,6 +22,10 @@ function VitresSurfaces() {
           <p className="sols-test"> Si Vitres + </p>
         </div>
         <div className="colonne-sols3">
+          <a href="/Produits/VitresSurfaces/Menage">
+            <img src={image3} alt="test" className="column-image-menage" />
+          </a>
+          <p className="sols-test"> Si Ménage </p>
         </div>
       </div>
     </div>

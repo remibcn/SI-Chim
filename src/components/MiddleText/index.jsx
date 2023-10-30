@@ -1,6 +1,5 @@
 /* eslint-disable max-len */
 import './styles.scss';
-import { NavLink } from 'react-router-dom';
 import { FR } from 'country-flag-icons/react/3x2';
 
 function Text() {

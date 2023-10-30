@@ -4,6 +4,8 @@ import { LiaToiletSolid } from 'react-icons/lia';
 import { FaCarSide } from 'react-icons/fa';
 import { BiSprayCan } from 'react-icons/bi';
 import { GiKitchenTap } from 'react-icons/gi';
+import { MdOutlineLocalLaundryService } from 'react-icons/md';
+import { LuPanelBottom } from 'react-icons/lu';
 
 function test() {
   return (
@@ -19,11 +21,11 @@ function test() {
             <h2 className="products-h2">Sanitaire </h2>
           </a>
           <a href="Vitres">
-            <LiaToiletSolid className="icons" />
+            <LuPanelBottom className="icons" />
             <h2 className="products-h2">Vitres & surfaces </h2>
           </a>
           <a href="/Cuisine">
-            <GiKitchenTap className="icons" />
+            <MdOutlineLocalLaundryService className="icons" />
             <h2 className="products-h2">Entretien spécifique</h2>
           </a>
         </div>
@@ -39,10 +41,6 @@ function test() {
           <a href="/Cuisine">
             <GiKitchenTap className="icons" />
             <h2 className="products-h2">Cusine</h2>
-          </a>
-          <a href="/Cuisine">
-            <GiKitchenTap className="icons" />
-            <h2 className="products-h2"> Entretien général </h2>
           </a>
         </div>
       </div>

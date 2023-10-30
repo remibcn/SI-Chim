@@ -23,7 +23,7 @@ function Products() {
         <NavLink to="/Produits/EntretienAuto">
           <p> Entretien auto </p>
         </NavLink>
-        <NavLink to="/Produits/AntiGraff">
+        <NavLink to="/Produits/AntiGraffiti">
           <p> Anti graffiti </p>
         </NavLink>
       </div>

@@ -11,7 +11,7 @@ import './styles.scss';
 function Cuisine() {
   return (
     <div>
-      <p className="sols-p"> Nos Produits Cuisine ! </p>
+      <p className="sols-p"> Nos Produits Cuisine  </p>
       <div className="container-sols">
         <div className="colonne-sols">
           <a href="/Produits/Cuisine/SiRince">

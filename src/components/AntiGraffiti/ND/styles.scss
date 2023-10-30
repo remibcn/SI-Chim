@@ -1,0 +1,28 @@
+.nd {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10rem;
+
+    &-left {
+        padding-left: 10rem;
+        text-align: center;
+    }
+    
+    &-right {
+
+        padding-right: 20rem;
+        margin-top: 10rem;
+        margin-left: 2rem;
+    }
+    
+    &-image {
+        width: 20rem;
+        margin-top: 4rem;
+    }
+
+}
+
+.icone-image {
+    margin-right: 1rem;
+}

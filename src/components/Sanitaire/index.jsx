@@ -18,7 +18,7 @@ function Sanitaire() {
           </a>
           <p className="sols-test"> Crème Mains </p>
           <a href=" /Produits/Sanitaire/DEO">
-            <img src={image3} alt="test" className="column-image" />
+            <img src={image3} alt="test" className="column-imagedeo" />
           </a>
           <p className="sols-test"> Déo </p>
         </div>
