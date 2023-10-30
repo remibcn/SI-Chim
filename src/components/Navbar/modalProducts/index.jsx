@@ -14,7 +14,7 @@ function Products() {
         <NavLink to="/Produits/Sanitaire">
           <p> Sanitaire </p>
         </NavLink>
-        <NavLink to="/Produits/Vitres&Surfaces">
+        <NavLink to="/VitresSurfaces">
           <p> Vitres & surfaces </p>
         </NavLink>
         <NavLink to="/Produits/EntretienSpecifique">

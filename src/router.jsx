@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import SolsProducts from './pages/SolsProducts';
 import CuisineProducts from './pages/CuisineProducts';
 import SanitaireProduct from './pages/SanitaireProducts';
-import VitresSurfacesProducts from './pages/Vitres&SurfacesProducts';
+import VitresSurfacesProducts from './pages/VitresSurfaces';
 import EntretienSpecifiqueProducts from './pages/EntretienSpecifique';
 import EntretienAutoProducts from './pages/EntretienAutoProducts';
 import SUPERDECRASSSOL from './components/Sols/SUPERDECRASSSOLS';
@@ -22,7 +22,7 @@ import Deo from './components/Sanitaire/Deo';
 import Odor2D from './components/Sols/Odor2D';
 import Odor from './components/Sols/Odor';
 import SiSol from './components/Sols/SiSol';
-import VitreEco from './components/VitresSurfaces/VitreEco';
+import VitreEco from './components/VitresSurfacesProducts/VitreEco';
 import SiRince from './components/Cuisine/SiRince';
 import LaveEauDure from './components/Cuisine/LaveEauDure';
 import Plonge from './components/Cuisine/Plonge';
@@ -30,8 +30,8 @@ import Detart from './components/Cuisine/Detart';
 import Four from './components/Cuisine/Four2+';
 import SpeedFlash from './components/Cuisine/SpeedFlash';
 import Net from './components/Cuisine/Net';
-import VitrePlus from './components/VitresSurfaces/VitrePlus';
-import Menage from './components/VitresSurfaces/Menage';
+import VitrePlus from './components/VitresSurfacesProducts/VitrePlus';
+import Menage from './components/VitresSurfacesProducts/Menage';
 import AntiMousse from './components/EntretienSpecifique/AntiMousse';
 import DecapSim from './components/EntretienSpecifique/DecapSim';
 import Algues from './components/EntretienSpecifique/Algues';
@@ -74,7 +74,7 @@ const router = createBrowserRouter([
         element: <CuisineProducts />,
       },
       {
-        path: '/Produits/Vitres&Surfaces',
+        path: '/VitresSurfaces',
         element: <VitresSurfacesProducts />,
       },
       {
@@ -138,7 +138,7 @@ const router = createBrowserRouter([
         element: <SiSol />,
       },
       {
-        path: '/Produits/VitresSurfaces/VitreEco',
+        path: '/VitresSurfaces/VitreEco',
         element: <VitreEco />,
       },
       {
@@ -198,11 +198,11 @@ const router = createBrowserRouter([
         element: <Repulsif />,
       },
       {
-        path: '/Produits/VitresSurfaces/VitrePlus',
+        path: '/VitresSurfaces/VitrePlus',
         element: <VitrePlus />,
       },
       {
-        path: '/Produits/VitresSurfaces/Menage',
+        path: '/VitresSurfaces/Menage',
         element: <Menage />,
       },
       {
