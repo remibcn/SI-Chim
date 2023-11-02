@@ -21,7 +21,7 @@ function test() {
             <LiaToiletSolid className="icons" />
             <h2 className="products-h2">Sanitaire </h2>
           </Link>
-          <Link to="/Produits/VitresSurfaces">
+          <Link to="/VitresSurfaces">
             <LuPanelBottom className="icons" />
             <h2 className="products-h2">Vitres & surfaces </h2>
           </Link>
