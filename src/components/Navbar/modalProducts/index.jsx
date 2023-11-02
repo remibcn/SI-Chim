@@ -12,7 +12,7 @@ function Products() {
           <p> Sols </p>
         </NavLink>
         <NavLink to="/Produits/Sanitaire">
-          <p> Sanitaire </p>
+          <p> Sanitaires </p>
         </NavLink>
         <NavLink to="/VitresSurfaces">
           <p> Vitres & surfaces </p>

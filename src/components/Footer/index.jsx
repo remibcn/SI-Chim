@@ -16,7 +16,9 @@ function Footer() {
         <ul>
           <h2 className="footer-title">Informations</h2>
           <ul>
-            <li className="button-minimalist">Adresse : ZA les Flandres 98 avenue de Choisy Villeneuve St Georges 94190</li>
+            <li className="button-minimalist">Adresse : ZA les Flandres 98 avenue de Choisy</li>
+            <li className=''> Villeneuve St Georges 94190</li>
+            <li className=''> si.chim@wanadoo.fr </li>
             <li> <BsFillTelephoneFill className="icons1" /> 01 43 82 65 11  </li>
           </ul>
         </ul>
