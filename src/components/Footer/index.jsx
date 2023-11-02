@@ -15,12 +15,10 @@ function Footer() {
       <div className="footer-links_container">
         <ul>
           <h2 className="footer-title">Informations</h2>
-          <li>
-            <Link className="button-minimalist" to="/nous">Adresse : ZA les Flandres 98 avenue de Choisy Villeneuve St Georges 94190</Link>
-          </li>
-          <li>
-            <p> <BsFillTelephoneFill className="icons1" /> 01 43 82 65 11  </p>
-          </li>
+          <ul>
+            <li className="button-minimalist">Adresse : ZA les Flandres 98 avenue de Choisy Villeneuve St Georges 94190</li>
+            <li> <BsFillTelephoneFill className="icons1" /> 01 43 82 65 11  </li>
+          </ul>
         </ul>
       </div>
     </footer>

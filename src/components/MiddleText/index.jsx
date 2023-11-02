@@ -18,7 +18,7 @@ function Text() {
         <FR title="United States" className="flag" />
       </div>
       <div className="text-button">
-        <a href="#test">
+        <a href="#Produits">
           <button className="text-button-products" type="button"> Nos Produits </button>
         </a>
       </div>

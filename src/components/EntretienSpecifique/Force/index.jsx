@@ -3,6 +3,8 @@ import './styles.scss';
 import SaniCleanImage from '../../../assets/EntretienSpecifique/SI_FORCE-removebg-preview.png';
 import Navbar from '../../Navbar';
 import PDF from '../../../assets/Fiches/FT SI FORCE.pdf';
+import serpillere from '../../../assets/icones/serpillere.jpg';
+import sceau from '../../../assets/icones/sceau-eponge.jpg';
 
 function Force() {
   return (
@@ -22,9 +24,11 @@ function Force() {
             SI FORCE a une action immédiate et spectaculaire, même sur les tâches difficiles.
           </p>
           <p>
-            SI FORCE remet en état les plastiques (ordinateur, photocopieur...) et enlève les taches d 
+            SI FORCE remet en état les plastiques (ordinateur, photocopieur...) et enlève les taches de
             nicotine , d’encre, etc...
           </p>
+          <img className="icone-image" src={serpillere} alt='serpillere' />
+          <img className="icone-image" src={sceau}  alt="sceau" />
         </div>
       </div>
     </div>

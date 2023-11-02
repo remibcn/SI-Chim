@@ -3,6 +3,8 @@ import './styles.scss';
 import SaniCleanImage from '../../../assets/EntretienSpecifique/ANTI_MOUSSE-removebg-preview.png';
 import Navbar from '../../Navbar';
 import PDF from '../../../assets/Fiches/FT ANTIMOUSSE.pdf';
+import autolaveuse from '../../../assets/icones/autolaveuse.jpg';
+import injection from '../../../assets/icones/Injection.jpg';
 
 function AntiMousse() {
   return (
@@ -20,6 +22,8 @@ function AntiMousse() {
             injection/ extraction, lorsqu’il y a aspiration des résidus moussants des shampooings
             traditionnels.
           </p>
+          <img className="icone-image" src={autolaveuse} alt='autolaveuse' />
+          <img className="icone-image" src={injection}  alt="serpillere" />
         </div>
       </div>
     </div>

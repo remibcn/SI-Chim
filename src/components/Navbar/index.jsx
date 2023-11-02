@@ -4,6 +4,7 @@ import { productsModal } from '../../slices/modalSlice';
 import Products from './modalProducts';
 import Documents from './modalDocuments';
 import logo from '../../assets/newlogosichim2 blanc.png';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const { isOpenProducts } = useSelector((store) => store.modal);
@@ -23,9 +24,9 @@ function Navbar() {
         </button>
       </div>
       <div className="navbar-container navbar-right">
-        <a href="/contact">
+        <Link to="/contact">
           <h2>Contact</h2>
-        </a>
+        </Link>
       </div>
       {isOpenProducts && <Products />}
       {isOpenDocuments && <Documents />}

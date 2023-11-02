@@ -6,42 +6,43 @@ import { BiSprayCan } from 'react-icons/bi';
 import { GiKitchenTap } from 'react-icons/gi';
 import { MdOutlineLocalLaundryService } from 'react-icons/md';
 import { LuPanelBottom } from 'react-icons/lu';
+import { Link } from 'react-router-dom';
 
 function test() {
   return (
-    <div id="test">
+    <div id="Produits">
       <div className="container">
         <div className="column">
-          <a href="/Produits/Sols">
+          <Link to="/Produits/Sols">
             <GiFloorHatch className="icons" />
             <h2 className="products-h2">Sols </h2>
-          </a>
-          <a href="Sanitaire">
+          </Link>
+          <Link to="/Produits/Sanitaire">
             <LiaToiletSolid className="icons" />
             <h2 className="products-h2">Sanitaire </h2>
-          </a>
-          <a href="Vitres">
+          </Link>
+          <Link to="/Produits/VitresSurfaces">
             <LuPanelBottom className="icons" />
             <h2 className="products-h2">Vitres & surfaces </h2>
-          </a>
-          <a href="/Cuisine">
+          </Link>
+          <Link to="/Produits/Cuisine">
             <MdOutlineLocalLaundryService className="icons" />
             <h2 className="products-h2">Entretien spécifique</h2>
-          </a>
+          </Link>
         </div>
         <div className="column">
-          <a href="Voitures">
+          <Link to="/Produits/EntretienAuto">
             <FaCarSide className="icons" />
             <h2 className="products-h2">Entretien auto</h2>
-          </a>
-          <a href="/graffiti">
+          </Link>
+          <Link to="/Produits/AntiGraffiti">
             <BiSprayCan className="icons" />
             <h2 className="products-h2">Anti graffiti</h2>
-          </a>
-          <a href="/Cuisine">
+          </Link>
+          <Link to="/Produits/Cuisine">
             <GiKitchenTap className="icons" />
             <h2 className="products-h2">Cusine</h2>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

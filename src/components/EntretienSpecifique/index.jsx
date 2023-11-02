@@ -6,6 +6,7 @@ import image5 from '../../assets/EntretienSpecifique/SI_ALGUES-removebg-preview.
 import image6 from '../../assets/EntretienSpecifique/REPULSIF_CHIENS_CHATS-removebg-preview.png';
 
 import './styles.scss';
+import { Link } from 'react-router-dom';
 
 function EntretienSpecifique() {
   return (
@@ -13,33 +14,33 @@ function EntretienSpecifique() {
       <p className="sols-p"> Nos Produits Entretien Spécifique ! </p>
       <div className="container-sols">
         <div className="colonne-sols">
-          <a href=" /Produits/EntretienSpecifique/AntiMousse">
+          <Link to="/Produits/EntretienSpecifique/AntiMousse">
             <img src={image1} alt="test" className="column-image" />
-          </a>
+          </Link>
           <p className="sols-test">  Anti Mousse </p>
-          <a href=" /Produits/EntretienSpecifique/DecapSim">
+          <Link to="/Produits/EntretienSpecifique/DecapSim">
             <img src={image3} alt="test" className="column-image" />
-          </a>
+          </Link>
           <p className="sols-test"> SI Decap Cim</p>
         </div>
         <div className="colonne-sols2">
-          <a href="/Produits/EntretienSpecifique/Force">
+          <Link to="/Produits/EntretienSpecifique/Force">
             <img src={image4} alt="test" className="column-image" />
-          </a>
+          </Link>
           <p className="sols-test"> Si Force </p>
-          <a href="/Produits/EntretienSpecifique/Algues">
+          <Link to="/Produits/EntretienSpecifique/Algues">
             <img src={image5} alt="test" className="column-image" />
-          </a>
+          </Link>
           <p className="sols-test"> Si Algues </p>
         </div>
         <div className="colonne-sols3">
-          <a href="/Produits/EntretienSpecifique/OdorPin">
+          <Link to="/Produits/EntretienSpecifique/OdorPin">
             <img src={image2} alt="test" className="column-image" />
-          </a>
+          </Link>
           <p className="sols-test"> Odor+ Pin</p>
-          <a href="/Produits/EntretienSpecifique/Repulsif">
+          <Link to="/Produits/EntretienSpecifique/Repulsif">
             <img src={image6} alt="test" className="column-image" />
-          </a>
+          </Link>
           <p className="sols-test"> SI Répulsif </p>
         </div>
       </div>
