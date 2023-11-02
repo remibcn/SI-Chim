@@ -6,7 +6,7 @@ import './styles.scss';
 
 function AntiGraffiti() {
   return (
-    <div>
+    <div className="graff">
       <p className="sols-p"> Nos Produits Anti Graffiti ! </p>
       <div className="container-sols">
         <div className="colonne-sols">

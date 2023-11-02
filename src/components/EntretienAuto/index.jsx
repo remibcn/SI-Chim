@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function EntretienAuto() {
   return (
-    <div>
+    <div className='graff'>
       <p className="sols-p"> Nos Produits Entretien Auto ! </p>
       <div className="container-sols">
         <div className="colonne-sols">
