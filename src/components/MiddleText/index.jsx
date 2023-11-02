@@ -6,17 +6,31 @@ function Text() {
   return (
     <div className="text-container">
       <div className="h2-h2">
-        <h2> Si-Chim est une société francaise de fabrication de produits d'entretien.</h2>
+        <h2> Si CHIM est une société francaise spécialisée dans la conception, la fabrication </h2>
       </div>
       <div className="text-container-text">
-        <h2> Spécialisée dans la recherche et le développement au services des professionnels et des collectivités .</h2>
+        <h2> et le developpement de produits de nettoyage pour les professionels.</h2>
       </div>
       <div className="text-container-p">
-        <p> Fondée depuis plus de 20 ans par 2 chimistees passionées, Si-Chim se veut innovante aussi bien dans ses formulations que dans le respect des normes et de l'environnement</p>
+        <p> Fondée depuis plus de 20 ans par 2 chimistes, Si CHIM offre à ses clients des formules et un packaging à façon</p>
       </div>
       <div>
         <FR title="United States" className="flag" />
       </div>
+      <ul className="text-list">
+        <li className='lili'>
+          Fabrication Française
+        </li>
+        <li className='lili'>
+          Formulation à façon
+        </li>
+        <li className='lili'>
+          Flexibilité et disponibilité
+        </li>
+        <li className='lili'>
+          Personnalisation du packaging
+        </li>
+      </ul>
       <div className="text-button">
         <a href="#Produits">
           <button className="text-button-products" type="button"> Nos Produits </button>

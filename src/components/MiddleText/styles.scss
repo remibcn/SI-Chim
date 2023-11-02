@@ -52,6 +52,10 @@
             padding: 1rem 1rem 1rem 1rem;
             border-radius: 10%;
         }
+        
+        &-li {
+            font-size: 10rem;
+        }
     }
 }
 
@@ -74,9 +78,20 @@ body {
 
     width: 4rem;
     margin-top: 1rem;
+    margin-bottom: 4rem
 
 }
 
 .h2-h2 {
     color: black;
+}
+
+.list {
+    margin-top: 10rem;
+}
+
+.lili {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.4;
 }

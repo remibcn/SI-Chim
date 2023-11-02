@@ -19,11 +19,11 @@ function Sols() {
           <Link to="/Produits/Sols/SUPERDECRASSSOLS">
             <img src={image1} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Super Decrass Sols </p>
+          <p className="sols-test"> Super Decrase Sols </p>
           <Link to="/Produits/Sols/DECAP">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Decap </p>
+          <p className="sols-test"> SI Decap </p>
           <Link to="/Produits/Sols/Odor2D">
             <img src={image7} alt="test" className="column-image" />
           </Link>
@@ -33,25 +33,25 @@ function Sols() {
           <Link to="/Produits/Sols/MOQ">
             <img src={image3} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Moq </p>
+          <p className="sols-test"> SI Moq </p>
           <Link to="/Produits/Sols/PARK">
             <img src={image4} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Park </p>
+          <p className="sols-test"> SI Park </p>
           <Link to="/Produits/Sols/SiSol">
             <img src={image8} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Sol </p>
+          <p className="sols-test"> SI Sol </p>
         </div>
         <div className="colonne-sols3">
           <Link to="/Produits/Sols/CLEAN">
             <img src={image5} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Clean </p>
+          <p className="sols-test"> SI Clean </p>
           <Link to="/Produits/Sols/Odor">
             <img src={image6} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Odor </p>
+          <p className="sols-test"> SI Odor </p>
         </div>
       </div>
     </div>
