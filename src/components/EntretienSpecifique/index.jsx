@@ -17,31 +17,31 @@ function EntretienSpecifique() {
           <Link to="/Produits/EntretienSpecifique/AntiMousse">
             <img src={image1} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test">  Anti Mousse </p>
+          <p className="sols-test">  ANTI MOUSSE </p>
           <Link to="/Produits/EntretienSpecifique/DecapSim">
             <img src={image3} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Decap Cim</p>
+          <p className="sols-test"> SI DECAP CIM</p>
         </div>
         <div className="colonne-sols2">
           <Link to="/Produits/EntretienSpecifique/Force">
             <img src={image4} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Force </p>
+          <p className="sols-test"> SI FORCE </p>
           <Link to="/Produits/EntretienSpecifique/Algues">
             <img src={image5} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Algues </p>
+          <p className="sols-test"> SI ALGUES </p>
         </div>
         <div className="colonne-sols3">
           <Link to="/Produits/EntretienSpecifique/OdorPin">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Odor+ Pin</p>
+          <p className="sols-test"> ODOR+ PIN</p>
           <Link to="/Produits/EntretienSpecifique/Repulsif">
             <img src={image6} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Répulsif </p>
+          <p className="sols-test"> SI RÉPULSIF </p>
         </div>
       </div>
     </div>

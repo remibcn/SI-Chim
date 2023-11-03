@@ -19,39 +19,39 @@ function Sols() {
           <Link to="/Produits/Sols/SUPERDECRASSSOLS">
             <img src={image1} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Super Decrase Sols </p>
+          <p className="sols-test"> SUPER DECRASSE SOLS </p>
           <Link to="/Produits/Sols/DECAP">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Decap </p>
+          <p className="sols-test"> SI DECAP </p>
           <Link to="/Produits/Sols/Odor2D">
             <img src={image7} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Odor 2D </p>
+          <p className="sols-test"> SI ODOR 2D </p>
         </div>
         <div className="colonne-sols2">
           <Link to="/Produits/Sols/MOQ">
             <img src={image3} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Moq </p>
+          <p className="sols-test"> SI MOQ </p>
           <Link to="/Produits/Sols/PARK">
             <img src={image4} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Park </p>
+          <p className="sols-test"> SI PARK </p>
           <Link to="/Produits/Sols/SiSol">
             <img src={image8} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Sol </p>
+          <p className="sols-test"> SI SOL </p>
         </div>
         <div className="colonne-sols3">
           <Link to="/Produits/Sols/CLEAN">
             <img src={image5} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Clean </p>
+          <p className="sols-test"> SI CLEAN </p>
           <Link to="/Produits/Sols/Odor">
             <img src={image6} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Odor </p>
+          <p className="sols-test"> SI ODOR </p>
         </div>
       </div>
     </div>

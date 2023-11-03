@@ -17,27 +17,27 @@ function Sanitaire() {
           <Link to="/Produits/Sanitaire/CREMEMAINS">
             <img src={image1} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Crème Mains </p>
+          <p className="sols-test"> CRÈme MAINS </p>
           <Link to="/Produits/Sanitaire/DEO">
             <img src={image3} alt="test" className="column-imagedeo" />
           </Link>
-          <p className="sols-test"> Déo </p>
+          <p className="sols-test"> DÉO </p>
         </div>
         <div className="colonne-sols2">
           <Link to="/Produits/Sanitaire/GelWC">
             <img src={image4} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Gel WC </p>
+          <p className="sols-test"> SI GEL WC </p>
           <Link to="/Produits/Sanitaire/Calc">
             <img src={image5} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Calc </p>
+          <p className="sols-test"> CALC </p>
         </div>
         <div className="colonne-sols3">
           <Link to="/Produits/Sanitaire/SaniClean">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Sani Clean </p>
+          <p className="sols-test"> SANI CLEAN </p>
         </div>
       </div>
     </div>

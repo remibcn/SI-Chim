@@ -18,35 +18,35 @@ function Cuisine() {
           <Link to="/Produits/Cuisine/SiRince">
             <img src={image1} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Rince </p>
+          <p className="sols-test"> SI RINCE </p>
           <Link to="/Produits/Cuisine/Detart">
             <img src={image4} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Detart </p>
+          <p className="sols-test"> SI DETART </p>
           <Link to="/Produits/Cuisine/Net">
             <img src={image7} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Net </p>
+          <p className="sols-test"> SI NET </p>
         </div>
         <div className="colonne-sols2">
           <Link to="/Produits/Cuisine/LaveEauDure">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Lave Eau Dure </p>
+          <p className="sols-test"> LAVE EAU DURE </p>
           <Link to="/Produits/Cuisine/Four2+">
             <img src={image5} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Four2+ </p>
+          <p className="sols-test"> SI FOUR2+ </p>
         </div>
         <div className="colonne-sols3">
           <Link to="/Produits/Cuisine/Plonge">
             <img src={image3} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Plonge </p>
+          <p className="sols-test"> SI PLONGE </p>
           <Link to="/Produits/Cuisine/SpeedFlash">
             <img src={image6} alt="test" className="column-imagespeed" />
           </Link>
-          <p className="sols-test"> SpeedFlash </p>
+          <p className="sols-test"> SPEEDFLASH </p>
         </div>
       </div>
     </div>

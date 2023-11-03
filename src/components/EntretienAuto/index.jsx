@@ -14,25 +14,25 @@ function EntretienAuto() {
           <Link to="/Produits/EntretienAuto/Wash">
             <img src={image1} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> SI Wash </p>
+          <p className="sols-test"> SI WASH </p>
         </div>
         <div className="colonne-sols2">
           <Link to="/Produits/EntretienAuto/Jantes">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si Jantes </p>
+          <p className="sols-test"> SI JANTES </p>
         </div>
         <div className="colonne-sols3">
           <Link to="/Produits/EntretienAuto/LaveGlaces">
             <img src={image3} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Laves Glaces </p>
+          <p className="sols-test"> LAVES GLACES </p>
         </div>
         <div className="colonne-sols4">
           <Link to="/Produits/EntretienAuto/Turbonet">
             <img src={image4} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Turbonet </p>
+          <p className="sols-test"> TURBONET </p>
         </div>
       </div>
     </div>

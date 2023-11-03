@@ -6,13 +6,13 @@ function Text() {
   return (
     <div className="text-container">
       <div className="h2-h2">
-        <h2> Si CHIM est une société francaise spécialisée dans la conception, la fabrication </h2>
+        <h2> SI CHIM est une société française spécialisée dans la conception, la fabrication </h2>
       </div>
       <div className="text-container-text">
-        <h2> et le developpement de produits de nettoyage pour les professionels.</h2>
+        <h2> et le developpement de produits de nettoyage pour les professionnels.</h2>
       </div>
       <div className="text-container-p">
-        <p> Fondée depuis plus de 20 ans par 2 chimistes, Si CHIM offre à ses clients des formules et un packaging à façon</p>
+        <p> Fondée depuis plus de 20 ans par 2 chimistes, SI CHIM offre à ses clients des formules et un packaging à façon</p>
       </div>
       <div>
         <FR title="United States" className="flag" />

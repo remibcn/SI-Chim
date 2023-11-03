@@ -13,13 +13,13 @@ function AntiGraffiti() {
           <Link to="/Produits/AntiGraffiti/NPGRAFF">
             <img src={image1} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> N.P.GRAFF </p>
+          <p className="sols-test"> N.P. GRAFF </p>
         </div>
         <div className="colonne-sols2">
           <Link to="/Produits/AntiGraffiti/NDGRAFF">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="graff-test">  N.D.GRAFF </p>
+          <p className="graff-test">  N.D. GRAFF </p>
         </div>
       </div>
     </div>
