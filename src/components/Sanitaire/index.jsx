@@ -17,7 +17,7 @@ function Sanitaire() {
           <Link to="/Produits/Sanitaire/CREMEMAINS">
             <img src={image1} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> CRÈme MAINS </p>
+          <p className="sols-test"> CRÈME MAINS </p>
           <Link to="/Produits/Sanitaire/DEO">
             <img src={image3} alt="test" className="column-imagedeo" />
           </Link>

@@ -19,7 +19,7 @@ function AntiGraffiti() {
           <Link to="/Produits/AntiGraffiti/NDGRAFF">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="graff-test">  N.D. GRAFF </p>
+          <p className="sols-test">  N.D. GRAFF </p>
         </div>
       </div>
     </div>
