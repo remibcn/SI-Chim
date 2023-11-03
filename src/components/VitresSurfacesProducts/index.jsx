@@ -19,13 +19,13 @@ function VitresSurfacesProducts() {
           <Link to="/VitresSurfaces/VitrePlus">
             <img src={image2} alt="test" className="column-image" />
           </Link>
-          <p className="sols-test"> Si VITRES + </p>
+          <p className="sols-test"> SI VITRES + </p>
         </div>
         <div className="colonne-sols3">
           <Link to="/VitresSurfaces/Menage">
             <img src={image3} alt="test" className="column-image-menage" />
           </Link>
-          <p className="sols-test"> Si Ménage </p>
+          <p className="sols-test"> SI MÉNAGE </p>
         </div>
       </div>
     </div>
