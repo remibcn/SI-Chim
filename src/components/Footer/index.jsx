@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-description_container">
-        <h2 className="footer-title">SI-Chim</h2>
+        <h2 className="footer-title">SI CHIM</h2>
         <p className="footer-description">
           SI-Chim entreprise spécialisée dans la fabrication de produits d'entretien.
         </p>
