@@ -11,8 +11,8 @@ function Text() {
       <div className="text-container-text">
         <h2> et le developpement de produits de nettoyage pour les professionnels.</h2>
       </div>
-      <div className="text-container-p">
-        <p> Fondée depuis plus de 20 ans par 2 chimistes, SI CHIM offre à ses clients des formules et un packaging à façon</p>
+      <div className="text-container-text">
+        <h2>Fondée depuis plus de 20 ans par 2 chimistes, SI CHIM offre à ses clients des formules et un packaging à façon</h2>
       </div>
       <div>
         <FR title="United States" className="flag" />
