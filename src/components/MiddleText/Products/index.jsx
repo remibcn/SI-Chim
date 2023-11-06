@@ -41,7 +41,7 @@ function test() {
           </Link>
           <Link to="/Produits/Cuisine">
             <GiKitchenTap className="icons" />
-            <h2 className="products-h2">Cusine</h2>
+            <h2 className="products-h2">Cuisine</h2>
           </Link>
         </div>
       </div>

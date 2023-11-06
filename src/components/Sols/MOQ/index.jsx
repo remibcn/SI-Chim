@@ -9,12 +9,12 @@ function MOQ() {
   return (
     <div>
       <Navbar />
-      <div className="decrass">
-        <div className="decrass-left">
-          <img className="decrass-image" src={MOQIMAGE} alt="test" />
+      <div className="moq">
+        <div className="moq-left">
+          <img className="moq-image" src={MOQIMAGE} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="decrass-right">
+        <div className="moq-right">
           <p>
             SI MOQ est un shampooing pour le nettoyage des moquettes, tissus d’ameublement,
             tapis et toutes surfaces textiles synthétiques (de préférence) en lavage par le procédé
@@ -25,7 +25,7 @@ function MOQ() {
             sur les sols protégés tels que thermoplastiques, carrelages, pvc, pierres naturelles ou
             artificielles.
           </p>
-          <img className="icone-image" src={injection} alt='injection' />
+          <img className="moq-image" src={injection} alt='injection' />
         </div>
       </div>
     </div>

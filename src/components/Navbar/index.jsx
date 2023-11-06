@@ -1,16 +1,14 @@
 import './styles.scss';
-import { useDispatch, useSelector } from 'react-redux';
 import { productsModal } from '../../slices/modalSlice';
-import Products from './modalProducts';
-import Documents from './modalDocuments';
-import logo from '../../assets/newlogosichim2 blanc.png';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import Products from './modalProducts';
+import logo from '../../assets/newlogosichim2 blanc.png';
 
 function Navbar() {
   const { isOpenProducts } = useSelector((store) => store.modal);
-  const { isOpenDocuments } = useSelector((store) => store.modal);
-
   const dispatch = useDispatch();
+
   return (
     <header className="navbar">
       <div className="navbar-container navbar-left">
@@ -29,7 +27,6 @@ function Navbar() {
         </Link>
       </div>
       {isOpenProducts && <Products />}
-      {isOpenDocuments && <Documents />}
     </header>
   );
 }

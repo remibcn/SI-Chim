@@ -5,7 +5,7 @@ import { FR } from 'country-flag-icons/react/3x2';
 function Text() {
   return (
     <div className="text-container">
-      <div className="h2-h2">
+      <div className="text-container-first">
         <h2> SI CHIM est une société française spécialisée dans la conception, la fabrication </h2>
       </div>
       <div className="text-container-text">

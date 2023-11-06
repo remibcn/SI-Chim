@@ -8,12 +8,12 @@ function Four() {
   return (
     <div>
       <Navbar />
-      <div className="four">
-        <div className="four-left">
-          <img className="four-image" src={SaniCleanImage} alt="test" />
+      <div className="four2">
+        <div className="four2-left">
+          <img className="four2-image" src={SaniCleanImage} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="four-right">
+        <div className="four2-right">
           <p>
             SI FOUR 2 +  est un puissant dégraissant pour les gaines, les hottes, les grilles ainsi que tous les
             systèmes d’extraction en cuisine industrielle.

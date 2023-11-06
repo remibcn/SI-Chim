@@ -11,12 +11,12 @@ function Odor() {
   return (
     <div>
       <Navbar />
-      <div className="decrass">
-        <div className="decrass-left">
-          <img className="decrass-image" src={PARKIMAGE} alt="test" />
+      <div className="odor">
+        <div className="odor-left">
+          <img className="odor-image" src={PARKIMAGE} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="decrass-right">
+        <div className="odor-right">
           <p>
             SI ODOR est un détergent désodorisant bactériostatique pour toutes surfaces
             lavables (surfaces modernes ou stratifiées, surfaces peintes, sols, sanitaires...)
@@ -30,8 +30,8 @@ function Odor() {
             FRAISE, FRAICHEUR IMPERIALE, ORANGE CANNELLE,  PAMPLEMOUSSE, OCEANE,
             TROPICANA, LAVANDE, MUGUET, FRAIS... Existe aussi SANS PARFUM
           </p>
-          <img className="icone-image" src={serpillere}  alt="serpillere" />
-          <img className="icone-image" src={autolaveuse} alt='autolaveuse' />
+          <img className="odor-image" src={serpillere}  alt="serpillere" />
+          <img className="odor-image" src={autolaveuse} alt='autolaveuse' />
         </div>
       </div>
     </div>

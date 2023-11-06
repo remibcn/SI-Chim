@@ -12,12 +12,12 @@ function Odor2D() {
   return (
     <div>
       <Navbar />
-      <div className="decrass">
-        <div className="decrass-left">
-          <img className="decrass-image" src={PARKIMAGE} alt="test" />
+      <div className="Odor2D">
+        <div className="Odor2D-left">
+          <img className="Odor2D-image" src={PARKIMAGE} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="decrass-right">
+        <div className="Odor2D-right">
           <p>
             SI ODOR 2D est un détergent désodorisant pour toutes surfaces lavables (surfaces   mo-
             dernes ou stratifiées, surfaces peintes, sols, sanitaires...)
@@ -31,9 +31,9 @@ function Odor2D() {
             FRAISE, FRAICHEUR IMPERIALE, ORANGE CANNELLE,  PAMPLEMOUSSE, OCEANE,
             LAVANDE, TROPICANA, MUGUET, MURE LITCHI, COQUELICOT, FRAIS, PECHE...
           </p>
-          <img className="icone-image" src={sceau }  alt="monobrosse" />
-          <img className="icone-image" src={serpillere}  alt="serpillere" />
-          <img className="icone-image" src={autolaveuse} alt='autolaveuse' />
+          <img className="Odor2D-image" src={sceau }  alt="monobrosse" />
+          <img className="Odor2D-image" src={serpillere}  alt="serpillere" />
+          <img className="Odor2D-image" src={autolaveuse} alt='autolaveuse' />
         </div>
       </div>
     </div>

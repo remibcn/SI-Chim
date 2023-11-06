@@ -1,6 +1,9 @@
 .container-sols {
     display: flex;
     margin-top: 5rem;
+    @media screen and (max-width:1024px) {
+        flex-direction: column;
+    }
 }
 
 .colonne-sols{
@@ -40,5 +43,11 @@
     text-align: center;
     font-size: 4rem;
     margin-top: 3rem;
+    @media screen and (max-width:1024px) {
+        flex-direction: column;
+        font-size: 3rem;
+        gap: 3rem;
+        line-height: 4rem;
+    }
 }
 

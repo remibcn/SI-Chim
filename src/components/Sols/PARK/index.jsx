@@ -11,12 +11,12 @@ function PARK() {
   return (
     <div>
       <Navbar />
-      <div className="decrass">
-        <div className="decrass-left">
-          <img className="decrass-image" src={PARKIMAGE} alt="test" />
+      <div className="PARK">
+        <div className="PARK-left">
+          <img className="PARK-image" src={PARKIMAGE} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="decrass-right">
+        <div className="PARK-right">
           <p>
             SI PARK est un nettoyant, dégraissant surpuissant conçu spécialement pour le nettoyage industriel,
             le nettoyage des parkings ou des garages et les gros travaux de remise en état.
@@ -28,9 +28,9 @@ function PARK() {
           <p>
             SI PARK émulsionne également rapidement la suie causée par un sinistre incendie.
           </p>
-          <img className="icone-image" src={carcher}  alt="monobrosse" />
-          <img className="icone-image" src={serpillere}  alt="serpillere" />
-          <img className="icone-image" src={autolaveuse} alt='autolaveuse' />
+          <img className="PARK-image" src={carcher}  alt="monobrosse" />
+          <img className="PARK-image" src={serpillere}  alt="serpillere" />
+          <img className="PARK-image" src={autolaveuse} alt='autolaveuse' />
         </div>
       </div>
     </div>

@@ -3,7 +3,6 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   isOpenProducts: false,
-  isOpenDocuments: false,
 
 };
 
@@ -13,9 +12,6 @@ export const modalSlice = createSlice({
   reducers: {
     productsModal: (state) => {
       state.isOpenProducts = !state.isOpenProducts;
-    },
-    documentModal: (state) => {
-      state.isOpenDocuments = !state.isOpenDocuments;
     },
   },
 });

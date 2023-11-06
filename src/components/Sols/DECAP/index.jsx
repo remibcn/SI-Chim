@@ -10,12 +10,12 @@ function DECAP() {
   return (
     <div>
       <Navbar />
-      <div className="decrass">
-        <div className="decrass-left">
-          <img className="decrass-image" src={DECAPIMAGE} alt="test" />
+      <div className="decap">
+        <div className="decap-left">
+          <img className="decap-image" src={DECAPIMAGE} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="decrass-right">
+        <div className="decap-right">
           <p>
             SI DECAP est un décapant puissant pour tous types de sols lavables.
           </p>

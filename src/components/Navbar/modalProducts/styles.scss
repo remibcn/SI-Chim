@@ -4,10 +4,15 @@
     position: absolute;
     align-items: center;
     top: 100%;
-    width: 100%;
+    width: 100vw;
     border-top: 2px solid white;
-
-    
+    @media screen and (max-width:1024px) {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        border-bottom: 2px white solid;
+    }
+ 
 }
 
 .modal-content {
@@ -17,9 +22,18 @@
     padding: 1rem;
     > * {
         margin: 0;
+        @media screen and (max-width:1024px) {
+            border-bottom: 1px solid white;
+        }
     }
     
     display: flex;
+    @media screen and (max-width:1024px) {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+       
+    }
 
         
 }

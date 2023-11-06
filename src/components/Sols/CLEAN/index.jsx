@@ -12,12 +12,12 @@ function CLEAN() {
   return (
     <div>
       <Navbar />
-      <div className="decrass">
-        <div className="decrass-left">
-          <img className="decrass-image" src={DECAPIMAGE} alt="test" />
+      <div className="clean">
+        <div className="clean-left">
+          <img className="clean-image" src={DECAPIMAGE} alt="test" />
           <a href={PDF}> Fiche technique </a>
         </div>
-        <div className="decrass-right">
+        <div className="clean-right">
           <p>
             SI CLEAN permet la rénovation des sols et surfaces fortement encrassés.
           </p>
