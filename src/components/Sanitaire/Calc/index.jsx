@@ -2,7 +2,7 @@
 import './styles.scss';
 import SaniCleanImage from '../../../assets/Sanitaire/SI_CALC-removebg-preview.png';
 import Navbar from '../../Navbar';
-import PDF from '../../../assets/Fiches/FT SI DEO.pdf';
+import PDF from '../../../assets/Fiches/FT SI CALC.pdf';
 
 function Calc() {
   return (
